@@ -14,8 +14,8 @@ My project is a cutting-edge, fully responsive fitness gym website made to deliv
 
 ### Links
 
-- Solution URL: (https://github.com/HKES-04/Dice-Game.git)
-- Live Site URL: (https://hkes-04.github.io/Dice-Game/)
+- Solution URL: (https://github.com/HKES-04/Fitness)
+- Live Site URL: (https://hussein-sultan-fitness.netlify.app/)
 
 ## My process
 
