@@ -1,0 +1,39 @@
+.class-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.class-img {
+  position: relative;
+}
+
+.class-img .class-img-1 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.class-img .class-img-2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.class-content {
+  padding: 2rem 0;
+}
+
+.class-content .section-header {
+  text-align: left;
+  max-width: 400px;
+}
+
+.class-content p {
+  margin-bottom: 4rem;
+  color: var(--text-light);
+}

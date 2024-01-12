@@ -1,0 +1,78 @@
+.review {
+  background-color: var(--primary-color-light);
+  margin-top: 5rem;
+}
+
+.review-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  width: 100vw;
+}
+
+.quote-span span {
+  display: flex;
+  font-size: 6rem;
+  color: var(--secondary-color);
+  opacity: 0.5;
+  margin-right: 2rem;
+  margin-left: -1.5rem;
+}
+
+.review-content {
+  display: flex;
+  width: 100vw;
+  margin-left: 5rem;
+}
+
+.review-content h4 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.review-content p {
+  max-width: 60vw;
+  margin-bottom: 2rem;
+  color: var(--text-light);
+}
+
+.review-rating span {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.review-footer {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 94vw;
+}
+
+.review-member {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.review-member img {
+  max-width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.review-member-details {
+  width: 11rem;
+}
+
+.review-member-details h4 {
+  margin-bottom: 0;
+}
+
+:root {
+  --swiper-theme-color: #98999a;
+}

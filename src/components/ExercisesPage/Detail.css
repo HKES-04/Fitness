@@ -1,0 +1,78 @@
+.detail-card {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem auto;
+  width: 90vw;
+  box-shadow: rgba(201, 201, 201, 0.2) 0px 2px 8px 0px;
+  border-radius: 9px;
+  padding: 2rem 3rem;
+  gap: 7rem;
+}
+
+.detail-img {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail-img img {
+  width: 100%;
+}
+
+.detail-content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.detail-heading {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: var(--white);
+}
+
+.detail-description {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #dddddd;
+}
+
+.detail-muscle {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.detail-muscle-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #2f2f2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.detail-muscle-img:hover {
+  box-shadow: rgb(229, 138, 20) 0px 15px 25px -10px;
+}
+
+.detail-muscle-img img {
+  width: 100%;
+}
+
+.detail-muscle p {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  color: #d3d3d3;
+}

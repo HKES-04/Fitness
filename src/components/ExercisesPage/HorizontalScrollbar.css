@@ -1,0 +1,46 @@
+.horizontal-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  width: 90vw;
+  gap: 2.5rem;
+}
+
+.horizontal-scroll {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  margin-left: -0.8rem;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.horizontal-scrollbar {
+  display: flex;
+  padding: 1rem 1rem;
+  align-items: center;
+}
+
+.horizontal-content button {
+  display: flex;
+  justify-content: center;
+  margin: auto auto;
+  border: none;
+  padding: 1rem;
+  color: #e48305;
+  border-radius: 50%;
+  background-color: #fafafa;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  align-items: center;
+  width: max-content;
+  height: max-content;
+  cursor: pointer;
+}

@@ -1,0 +1,340 @@
+:root {
+  --primary-color: #111317;
+  --primary-color-light: #1f2125;
+  --primary-color-extra-light: #35373b;
+  --secondary-color: #f9ac54;
+  --secondary-color-dark: #d79447;
+  --text-light: #d1d5db;
+  --white: #ffffff;
+  --swiper-theme-color: #fca502;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--primary-color);
+}
+
+@media screen and (max-width: 1200px) {
+  .detail-img {
+    width: 100%;
+  }
+  .detail-heading {
+    font-size: 1.8rem;
+  }
+  .detail-description {
+    font-size: 1rem;
+  }
+  .detail-muscle {
+    gap: 1rem;
+  }
+  .detail-muscle-img {
+    width: 50px;
+    height: 50px;
+  }
+  .detail-muscle p {
+    font-size: 1rem;
+  }
+  .review-container > span {
+    font-size: 4rem;
+    margin-left: 1rem;
+  }
+  .review-content p {
+    max-width: 70vw;
+  }
+}
+
+@media screen and (max-width: 1073px) {
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-left: -2rem;
+  }
+  .header-content h1 {
+    font-size: 4rem;
+    max-width: 30rem;
+  }
+  .header-container::before {
+    right: 12rem;
+  }
+  .review-content p {
+    max-width: 670px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nav-links {
+    gap: 1.2rem;
+    margin-left: -1rem;
+  }
+  .header-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .header-content h1 {
+    font-size: 5rem;
+    max-width: 40rem;
+  }
+  .header-container::before {
+    display: none;
+  }
+  .header-img {
+    grid-area: 1/1/2/2;
+  }
+  .explore-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .class-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .class-img {
+    min-height: 500px;
+  }
+  .join-container {
+    margin-bottom: 17rem;
+  }
+  .join-grid {
+    width: 100%;
+    margin: 0;
+    bottom: -20rem;
+  }
+  .price-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-container {
+    grid-template-columns: 1fr 200px;
+    margin-left: 3rem;
+  }
+  .footer-col p {
+    max-width: 15rem;
+  }
+  .quote-span span {
+    font-size: 4rem;
+    margin-right: 1rem;
+  }
+  .review-content p {
+    max-width: 70vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav-links {
+    gap: 0.8rem;
+  }
+  .nav-logo {
+    max-width: 110px;
+  }
+  .detail-card {
+    margin: 3rem auto;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  .detail-img img {
+    width: 60%;
+  }
+  .videos-title {
+    font-size: 1.5rem;
+  }
+  .videos-box {
+    width: 70vw;
+  }
+  .videos-responsive {
+    min-width: 250px;
+    height: 150px;
+  }
+  .nav-links {
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .nav {
+    padding: 0 3rem;
+    height: 5.7rem;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background-color: #1b1b1b;
+    border-bottom: 2px solid rgba(169, 169, 169, 0.1);
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    background-color: #454545;
+    top: 91.5px;
+    right: 0;
+    z-index: 1;
+    box-shadow: 0 40px 60px rbga(0, 0, 0, 0.1);
+    padding: 40px 0 0 30px;
+    transition: 0.3s ease-in-out;
+  }
+  .nav-links.active {
+    display: none;
+  }
+  .nav-end {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .nav-mobile {
+    display: flex;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  .quote-span span {
+    display: none;
+  }
+  .review-content p {
+    max-width: 75vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-content h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .header-img::before {
+    font-size: 30rem;
+  }
+  .explore-header {
+    flex-direction: column;
+  }
+  .explore-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .join-container {
+    margin-bottom: 20rem;
+  }
+  .join-grid {
+    width: 100%;
+    margin: 0;
+    bottom: -25rem;
+  }
+  .price-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-container {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 0;
+  }
+  .footer-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-col p {
+    display: none;
+  }
+  .footer-socials {
+    display: none;
+  }
+  .search-exercises h2 {
+    font-size: 1.7rem;
+  }
+  .search-input {
+    width: 250px;
+  }
+  .search-button {
+    width: 80px;
+    font-size: 0.9rem;
+  }
+  .horizontal-content button {
+    padding: 0.7rem;
+  }
+  .bodyPart-card {
+    width: 130px;
+    height: 160px;
+  }
+  .horizontal-content button {
+    display: none;
+  }
+  .results-heading {
+    font-size: 1.5rem;
+  }
+  .exercise-card {
+    padding: 1rem 0.5rem;
+    width: 300px;
+    height: 400px;
+  }
+  .pagination-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    font-size: 1.3rem;
+    color: #ffb83e;
+  }
+  .videos-title {
+    margin: 0 1rem;
+    margin-bottom: 2rem;
+  }
+  .videos-box {
+    width: 90vw !important;
+    gap: 1.2rem;
+  }
+  .videos-scroll {
+    gap: 1.5rem;
+  }
+  .videos-responsive {
+    min-width: 75vw !important;
+    height: 220px !important;
+  }
+  .videos-box button {
+    display: none;
+  }
+  .nav {
+    padding: 0 1.5rem !important;
+  }
+  .nav-logo {
+    max-width: 100px;
+  }
+  .btn {
+    padding: 0.6rem 1.4rem;
+    font-size: 0.9rem;
+  }
+  .nav-mobile {
+    font-size: 1.5rem !important;
+  }
+  .nav-end {
+    gap: 1rem !important;
+  }
+  .pagination-div {
+    font-size: 0.2rem;
+    margin: auto auto;
+    margin-top: 3rem;
+  }
+  .review-content {
+    margin-left: 6rem;
+  }
+  .review-content p {
+    max-width: 68vw !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .review-content {
+    margin-left: 4rem;
+  }
+  .review-content p {
+    max-width: 65vw !important;
+  }
+  .review-member {
+    display: flex;
+    flex-direction: column;
+  }
+}

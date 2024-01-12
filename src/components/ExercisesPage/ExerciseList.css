@@ -1,0 +1,27 @@
+.exercises-box {
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.results-heading {
+  margin-bottom: 46px;
+  text-align: center;
+  color: var(--white);
+  font-size: 2.2rem;
+}
+
+.exercises-stack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.pagination-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  font-size: 1.3rem;
+  color: #ffb83e;
+}
